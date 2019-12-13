@@ -1,1 +1,28 @@
-Welcome
+{% extends 'layout/base.twig' %}
+{% block title %}CATenergy{% endblock %}
+{% block body %}
+    {% include 'layout/header.twig' with
+        {
+        'list' :  [
+            {
+                'caption' : 'главная',
+            },
+            {
+                'caption' : 'каталог продукции',
+            },
+            {
+                'caption' : 'подбор программы',
+            },
+        ]
+        }
+    %}
+
+    {% include 'components/hero.twig' with
+        {
+            'section_title' : 'Функцилнальное<br>питание для котов',
+            'section_description' : 'занялся собой? займись котом!',
+            'section_btn' : 'подобрать программу'
+        }
+    %}
+
+{% endblock %}

@@ -1,0 +1,55 @@
+.header{
+  padding-top: 50px;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+
+  &:after{
+    position: absolute;
+    content: "";
+    background-image: url("../images/hero-cat.jpg");
+    background-repeat: no-repeat;
+    background-color: #64a83b;
+    background-size: 720px 697px;
+    background-position: right;
+    width: 50%;
+    height: 697px;
+    right: 0;
+    top: 0;
+  }
+}
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  &__logo{
+    @include png-sprite($icon-logo-desk);
+  }
+  &__list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 7px;
+    z-index: 4;
+  }
+
+  &__item{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-right: 35px;
+
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+
+  &__link{
+    text-decoration: none;
+    color: black;
+
+    &--active{
+      border-bottom: 2px solid green;
+    }
+  }
+}

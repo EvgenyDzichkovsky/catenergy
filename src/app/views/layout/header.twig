@@ -1,14 +1,25 @@
 <header class="header">
     <div class="container">
-        <div class="nav__button hide-desktop">
-            <button class="js-menu-toggle"></button>
-        </div>
-        <nav class="nav">
-            <div class="nav__logo"></div>
+        <nav class="nav nav--closed nav--nojs">
+            <div class="nav__wrapper">
+            <button class="nav__button js-menu-toggle hide-desktop">
+                <span class="visually-hidden">Открыть меню</span>
+            </button>
+            <div class="nav__logo">
+                {% include '../components/img.twig' with {
+                    'title' : 'logo cat energy',
+                    'tablet_src' : '/images/logo-tablet.png',
+                    'mobile_src' : '/images/logo-mobile.png',
+                    'src' : '/images/logo-desktop.png',
+                    'responsive' : 'true'
+                } %}
+            </div>
+            <div class="nav__logo-mobile"></div>
+            </div>
             <ul class="nav__list">
                 {% for item in list %}
                     <li class="nav__item">
-                        <a href="#" class="nav__link">{{ item.caption }}</a></li>
+                        <a href="#" class="nav__link nav__link--mobile">{{ item.caption }}</a></li>
                 {% endfor %}
             </ul>
         </nav>

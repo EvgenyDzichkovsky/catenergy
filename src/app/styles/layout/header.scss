@@ -1,10 +1,11 @@
-.header{
+.header {
   padding-top: 50px;
   position: relative;
   width: 100%;
   margin: 0 auto;
 
-  &:after{
+
+  &:after {
     position: absolute;
     content: "";
     background-image: url("../images/hero-cat.jpg");
@@ -16,40 +17,153 @@
     height: 697px;
     right: 0;
     top: 0;
+
+    @include tablet {
+      display: none;
+    }
+
+    @include mobile {
+      display: none;
+    }
+  }
+
+  @include mobile {
+    padding-top: 0;
   }
 }
 
-.nav{
+.nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  &__logo{
-    @include png-sprite($icon-logo-desk);
+
+  &__wrapper {
+    @include mobile {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      justify-content: space-between;
+    }
   }
-  &__list{
+
+  &__logo-mobile {
+    display: none;
+
+    @include mobile {
+      display: block;
+      @include png-sprite($icon-cat-energy-mobile);
+      align-self: center;
+    }
+  }
+
+  &__list {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-top: 7px;
     z-index: 4;
+
+    @include mobile {
+      flex-direction: column;
+    }
   }
 
-  &__item{
+  &__item {
     text-transform: uppercase;
     font-size: 20px;
     margin-right: 35px;
 
-    &:last-child{
+    &:last-child {
+      margin-right: 0;
+    }
+
+    @include mobile {
       margin-right: 0;
     }
   }
 
-  &__link{
+  &__link {
     text-decoration: none;
     color: #ffffff;
 
-    &--active{
+    @include tablet {
+      color: #000000;
+    }
+
+    @include mobile {
+      color: #000000;
+    }
+
+    &--active {
       border-bottom: 2px solid green;
     }
+  }
+
+  @include mobile {
+    &__button {
+      align-self: center;
+      position: relative;
+      z-index: 20;
+      display: block;
+      width: 21px;
+      height: 21px;
+      cursor: pointer;
+      border: none;
+      background: transparent;
+      outline: none;
+      order: 1;
+    }
+
+    &--closed &__button::before {
+      content: "";
+      position: absolute;
+      top: 3px;
+      width: 21px;
+      height: 2px;
+      transform: translate(-50%, -50%);
+      background: #000;
+      box-shadow: 0 8px 0 0 #000000, 0 16px 0 0 #000000;
+    }
+
+    &--closed &__button:active::before {
+      background: rgba(255, 255, 255, 0.3);
+      box-shadow: 0 8px 0 0 rgba(255, 255, 255, 0.3),
+      0 16px 0 0 rgba(255, 255, 255, 0.3);
+    }
+
+    &--opened &__button {
+
+      &:before,
+      &:after {
+        content: "";
+        position: absolute;
+        top: 10px;
+        left: 0;
+        width: 21px;
+        height: 2px;
+        background: #000;
+      }
+
+      &:before {
+        transform: rotate(45deg);
+      }
+
+      &:after {
+        transform: rotate(-45deg);
+      }
+    }
+
+    &--closed &__link--mobile {
+      display: none;
+    }
+
+    &--opened &__item {
+      margin-top: 65px;
+    }
+
+
+    padding: 15px 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
   }
 }

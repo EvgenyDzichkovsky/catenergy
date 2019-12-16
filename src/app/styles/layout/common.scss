@@ -18,10 +18,25 @@ ul {
   max-width: 1220px;
   margin: 0 auto;
   padding: 0 10px;
+
+  @include tablet{
+    padding: 0 30px;
+  }
+
+  @include mobile{
+    padding: 0 20px;
+  }
 }
 
 .hide-desktop{
   display: none;
+}
+.hide{
+  display: none;
+}
+
+.show-mobile{
+  display: flex;
 }
 
 .btn{
@@ -31,4 +46,8 @@ ul {
   font-size: 20px;
   padding: 17px 26px;
   background: #68b738;
+}
+
+.pr{
+  padding-right: 57px;
 }

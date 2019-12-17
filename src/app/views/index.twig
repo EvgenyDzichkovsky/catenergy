@@ -44,4 +44,32 @@
         }
     %}
 
+    {% include 'components/advantages.twig' with
+        {
+            'list' : [
+            {
+                'img_class' : 'advantages__img--konoha',
+                'description' : 'Функциональное питание содержит только полезные питательные вещества.',
+                'number' : '1',
+            },
+            {
+                'img_class' : 'advantages__img--water',
+                'description' : 'Выпускается в виде порошка, который нужно лишь залить кипятком и готово.',
+                'number' : '2',
+            },
+            {
+                'img_class' : 'advantages__img--fork',
+                'description' : 'Замените один-два приема обычной еды на наше фунцкциональное питание.',
+                'number' : '3',
+            },
+            {
+                'img_class' : 'advantages__img--alarm',
+                'description' : 'Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!',
+                'number' : '4',
+            },
+        ]
+        }
+    %}
+
+
 {% endblock %}

@@ -1,0 +1,11 @@
+<section class="advantages container">
+    {% for item in list %}
+        <div class="advantages__item">
+            <div class="advantages__item-wrap">
+                <div class="advantages__img {{ item.img_class }}"></div>
+                <p>{{ item.description }}</p>
+            </div>
+            <span class="advantages__number">{{ item.number }}</span>
+        </div>
+    {% endfor %}
+</section>

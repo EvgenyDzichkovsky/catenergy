@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e806ebf-78b9-49c4-b84d-9f10222dad45" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/sprites/png-sprite.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/sprites/png-sprite.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/components/advantages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/advantages.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/components/cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/cards.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/views/components/advantages.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/components/advantages.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/views/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/index.twig" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,8 +23,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/app/views/index.twig">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="651">
-                  <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
+                <state relative-caret-position="347">
+                  <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -32,8 +32,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/app/views/components/advantages.twig">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="48">
-                  <caret line="3" column="46" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="46" />
+                <state relative-caret-position="32">
+                  <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
                 </state>
               </provider>
             </entry>
@@ -42,11 +42,20 @@
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/app/styles/components/advantages.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="299">
-                  <caret line="80" column="31" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
+                <state relative-caret-position="523">
+                  <caret line="127" column="35" selection-start-line="127" selection-start-column="35" selection-end-line="127" selection-end-column="35" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/app/styles/components/cards.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="208">
+                  <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
                 </state>
               </provider>
             </entry>
@@ -89,7 +98,6 @@
         <option value="$PROJECT_DIR$/src/app/views/components/hero.twig" />
         <option value="$PROJECT_DIR$/src/app/styles/components/hero.scss" />
         <option value="$PROJECT_DIR$/src/app/views/components/cards.twig" />
-        <option value="$PROJECT_DIR$/src/app/styles/components/cards.scss" />
         <option value="$PROJECT_DIR$/src/app/views/components/About-work" />
         <option value="$PROJECT_DIR$/src/app/views/components/about-work.twig" />
         <option value="$PROJECT_DIR$/src/app/styles/components/about-work.scss" />
@@ -97,12 +105,13 @@
         <option value="$PROJECT_DIR$/src/app/views/index.twig" />
         <option value="$PROJECT_DIR$/src/app/views/components/advantages.twig" />
         <option value="$PROJECT_DIR$/src/app/styles/components/advantages.scss" />
+        <option value="$PROJECT_DIR$/src/app/styles/components/cards.scss" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="27" />
-    <option name="y" value="52" />
+    <option name="y" value="55" />
     <option name="width" value="1900" />
     <option name="height" value="976" />
   </component>
@@ -277,15 +286,15 @@
       <workItem from="1576073163766" duration="6595000" />
       <workItem from="1576136638369" duration="23608000" />
       <workItem from="1576325854599" duration="3090000" />
-      <workItem from="1576420483061" duration="39000000" />
+      <workItem from="1576420483061" duration="40667000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73216000" />
+    <option name="totallyTimeSpent" value="74883000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="27" y="52" width="1900" height="976" extended-state="0" />
+    <frame x="27" y="55" width="1900" height="976" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15306123" />
@@ -417,13 +426,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/styles/components/cards.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="109" column="23" selection-start-line="109" selection-start-column="23" selection-end-line="109" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/views/components/cards.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -440,22 +442,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/views/index.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
+        <state relative-caret-position="347">
+          <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/views/components/advantages.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="46" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="46" />
+        <state relative-caret-position="32">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/styles/components/advantages.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="80" column="31" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
+        <state relative-caret-position="523">
+          <caret line="127" column="35" selection-start-line="127" selection-start-column="35" selection-end-line="127" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/styles/components/cards.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
         </state>
       </provider>
     </entry>

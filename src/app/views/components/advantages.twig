@@ -1,11 +1,14 @@
 <section class="advantages container">
-    {% for item in list %}
-        <div class="advantages__item">
-            <div class="advantages__item-wrap">
-                <div class="advantages__img {{ item.img_class }}"></div>
-                <p>{{ item.description }}</p>
+    <h3>{{ item_title }}</h3>
+    <div class="advantages__wrap">
+        {% for item in list %}
+            <div class="advantages__item">
+                <div class="advantages__item-wrap">
+                    <div class="advantages__img {{ item.img_class }}"></div>
+                    <p>{{ item.description }}</p>
+                </div>
+                <span class="advantages__number">{{ item.number }}</span>
             </div>
-            <span class="advantages__number">{{ item.number }}</span>
-        </div>
-    {% endfor %}
+        {% endfor %}
+    </div>
 </section>

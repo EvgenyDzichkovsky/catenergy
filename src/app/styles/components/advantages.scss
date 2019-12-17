@@ -1,18 +1,28 @@
-.advantages{
+.advantages {
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   margin-bottom: 90px;
 
-  &__img{
+  h3 {
+    font-size: 60px;
+    margin-bottom: 60px;
+
+    @include mobile {
+      font-size: 36px;
+    }
+  }
+
+  &__img {
     width: 80px;
     height: 80px;
     background: #68b738;
     margin-bottom: 40px;
 
-    &--konoha, &--water, &--fork, &--alarm{
+    &--konoha, &--water, &--fork, &--alarm {
       position: relative;
+
       &:before {
         position: absolute;
         content: '';
@@ -22,31 +32,31 @@
       }
     }
 
-    &--konoha{
-      &:before{
+    &--konoha {
+      &:before {
         @include png-sprite($icon-advantages-1);
       }
     }
 
-    &--water{
-      &:before{
+    &--water {
+      &:before {
         @include png-sprite($icon-advantages-2);
       }
     }
 
-    &--fork{
-      &:before{
+    &--fork {
+      &:before {
         @include png-sprite($icon-advantages-3);
       }
     }
 
-    &--alarm{
-      &:before{
+    &--alarm {
+      &:before {
         @include png-sprite($icon-advantages-4);
       }
     }
 
-    @include mobile{
+    @include mobile {
       width: 60px;
       height: 60px;
       margin-bottom: 20px;
@@ -55,35 +65,39 @@
     }
   }
 
-  p{
+  p {
     font-size: 16px;
     font-family: 'Arial', sans-serif;
     width: 245px;
 
-    @include mobile{
+    @include mobile {
       font-size: 14px;
     }
   }
 
-  &__item{
+  &__item {
     position: relative;
 
-    @include tablet{
+    @include tablet {
       margin-bottom: 150px;
       padding-right: 50px;
     }
 
-    &-wrap{
+    &-wrap {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
 
-      @include tablet{
+      @include tablet {
         flex-direction: column;
+      }
+
+      @include mobile {
+        flex-direction: row;
       }
     }
   }
 
-  &__number{
+  &__number {
     position: absolute;
     right: 0;
     top: 0;
@@ -92,19 +106,35 @@
     color: #f2f2f2;
     z-index: -1;
 
-    @include mobile{
+    @include mobile {
       display: none;
     }
   }
 
-  @include tablet{
+  @include tablet {
     width: auto;
     flex-wrap: wrap;
     justify-content: space-between;
   }
 
-  @include mobile{
+  @include mobile {
     flex-direction: column;
     width: auto;
+  }
+
+  &__wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    @include tablet {
+      justify-content: space-between;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    @include mobile {
+      flex-direction: column;
+    }
   }
 }

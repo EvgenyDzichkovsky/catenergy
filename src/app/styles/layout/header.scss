@@ -64,6 +64,9 @@
 
     @include mobile {
       flex-direction: column;
+      width: 100%;
+      text-align: center;
+      padding-top: 10px;
     }
   }
 
@@ -78,6 +81,8 @@
 
     @include mobile {
       margin-right: 0;
+      border-top: 1px solid #e6e6e6;
+
     }
   }
 
@@ -91,6 +96,8 @@
 
     @include mobile {
       color: #000000;
+      display: block;
+      padding: 25px;
     }
 
     &--active {
@@ -157,11 +164,10 @@
     }
 
     &--opened &__item {
-      margin-top: 65px;
+      width: 100%;
     }
 
-
-    padding: 15px 0;
+    padding-top: 15px;
     align-items: center;
     display: flex;
     flex-direction: column;

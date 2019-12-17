@@ -1,0 +1,55 @@
+.contacts{
+  position: relative;
+  &__address{
+
+    h4{
+      text-transform: uppercase;
+      text-align: left;
+
+      @include tablet{
+        font-size: 20px;
+        width: 221px;
+      }
+    }
+
+    p{
+      text-align: right;
+      font-family: 'Arial', sans-serif;
+
+      @include tablet{
+        font-size: 16px;
+        width: 197px;
+      }
+
+      @include mobile{
+        text-align: left;
+        width: 247px;
+      }
+    }
+
+    &-wrap{
+      display: flex;
+      flex-direction: row;
+      padding: 70px;
+      width: 570px;
+      background: #ffffff;
+      position: absolute;
+      top: 50%;
+      transform: translate(0%,-50%);
+
+      @include tablet{
+        position: relative;
+        height: 200px;
+        align-items: center;
+        padding: 0 40px;
+        justify-content: space-between;
+      }
+      
+      @include mobile{
+        position: relative;
+        padding: 30px 0;
+        width: 100%;
+      }
+    }
+  }
+}

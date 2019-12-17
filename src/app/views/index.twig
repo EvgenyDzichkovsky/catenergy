@@ -3,7 +3,7 @@
 {% block body %}
     {% include 'layout/header.twig' with
         {
-        'list' :  [
+            'list' :  [
             {
                 'caption' : 'главная',
             },
@@ -14,16 +14,14 @@
                 'caption' : 'подбор программы',
             },
         ]
-        }
-    %}
+        } %}
 
     {% include 'components/hero.twig' with
         {
             'section_title' : 'Функцилнальное<br>питание для котов',
             'section_description' : 'занялся собой? займись котом!',
             'section_btn' : 'подобрать программу'
-        }
-    %}
+        } %}
 
     {% include 'components/cards.twig' with
         {
@@ -41,8 +39,7 @@
                 'link' : 'каталог slim'
             }
         ]
-        }
-    %}
+        } %}
 
     {% include 'components/advantages.twig' with
         {
@@ -69,8 +66,14 @@
                 'number' : '4',
             },
         ]
-        }
-    %}
+        } %}
 
+    {% include 'components/contacts.twig' with
+        {
+            'section_title' : 'приглашаем к сотрудничеству дилеров!',
+            'section_description' : 'ул. Большая Конюшенная, д. 19/8 Санкт-Петербург',
+            'url_map' : 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4165.0389332516215!2d27.558408089741537!3d53.898059125202046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfc1f0c10db3%3A0x3c62938f02eb9022!2z0JPQo9Cc!5e0!3m2!1sru!2sby!4v1576606171200!5m2!1sru!2sby',
+
+        } %}
 
 {% endblock %}

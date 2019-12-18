@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e806ebf-78b9-49c4-b84d-9f10222dad45" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/app/styles/components/contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/contacts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/sprites/png-sprite.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/sprites/png-sprite.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/views/components/contacts.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/components/contacts.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/views/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/index.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/views/layout/base.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/layout/base.twig" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,29 +25,26 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/app/views/index.twig">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="621">
-                  <caret line="72" column="42" selection-start-line="72" selection-start-column="42" selection-end-line="72" selection-end-column="42" />
+                <state relative-caret-position="571">
+                  <caret line="92" column="17" lean-forward="true" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/app/views/components/contacts.twig">
+            <entry file="file://$PROJECT_DIR$/src/app/views/layout/footer.twig">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="48">
-                  <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-                  <folding>
-                    <element signature="n#style#0;n#iframe#0;n#section#0;n#!!top" expanded="true" />
-                  </folding>
+                <state relative-caret-position="96">
+                  <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/app/styles/style.scss">
+            <entry file="file://$PROJECT_DIR$/src/app/views/layout/base.twig">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="17" selection-start-column="17" selection-end-column="17" />
+                <state relative-caret-position="176">
+                  <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
@@ -53,10 +54,10 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/app/styles/components/contacts.scss">
+            <entry file="file://$PROJECT_DIR$/src/app/styles/layout/footer.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="667">
-                  <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+                <state relative-caret-position="155">
+                  <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
                 </state>
               </provider>
             </entry>
@@ -91,7 +92,6 @@
         <option value="$PROJECT_DIR$/src/app/styles/layout/visually-hidden.scss" />
         <option value="$PROJECT_DIR$/src/app/views/components/img.twig" />
         <option value="$PROJECT_DIR$/src/app/styles/mixins/layout.scss" />
-        <option value="$PROJECT_DIR$/src/app/views/layout/base.twig" />
         <option value="$PROJECT_DIR$/src/app/js/App.js" />
         <option value="$PROJECT_DIR$/src/app/views/layout/header.twig" />
         <option value="$PROJECT_DIR$/src/app/styles/layout/header.scss" />
@@ -107,10 +107,14 @@
         <option value="$PROJECT_DIR$/src/app/styles/components/cards.scss" />
         <option value="$PROJECT_DIR$/src/app/styles/components/map.scss" />
         <option value="$PROJECT_DIR$/src/app/views/components/map.twig" />
-        <option value="$PROJECT_DIR$/src/app/styles/style.scss" />
         <option value="$PROJECT_DIR$/src/app/views/components/contacts.twig" />
+        <option value="$PROJECT_DIR$/src/app/views/layout/footer.twig" />
         <option value="$PROJECT_DIR$/src/app/views/index.twig" />
+        <option value="$PROJECT_DIR$/src/app/styles/layout/wrapper.scss" />
+        <option value="$PROJECT_DIR$/src/app/styles/style.scss" />
         <option value="$PROJECT_DIR$/src/app/styles/components/contacts.scss" />
+        <option value="$PROJECT_DIR$/src/app/views/layout/base.twig" />
+        <option value="$PROJECT_DIR$/src/app/styles/layout/footer.scss" />
       </list>
     </option>
   </component>
@@ -291,12 +295,12 @@
       <workItem from="1576073163766" duration="6595000" />
       <workItem from="1576136638369" duration="23608000" />
       <workItem from="1576325854599" duration="3090000" />
-      <workItem from="1576420483061" duration="44808000" />
+      <workItem from="1576420483061" duration="52680000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79024000" />
+    <option name="totallyTimeSpent" value="86896000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="27" y="55" width="1900" height="976" extended-state="0" />
@@ -379,13 +383,6 @@
     <entry file="file://$PROJECT_DIR$/src/app/images/logo-mobile.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/views/layout/base.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/styles/layout/header.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -414,13 +411,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/views/components/cards.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -459,34 +449,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/views/components/cards.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/styles/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        <state relative-caret-position="192">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/styles/layout/wrapper.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/views/index.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="72" column="42" selection-start-line="72" selection-start-column="42" selection-end-line="72" selection-end-column="42" />
+        <state relative-caret-position="571">
+          <caret line="92" column="17" lean-forward="true" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/views/components/contacts.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#section#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="80">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/styles/components/contacts.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+        <state relative-caret-position="1168">
+          <caret line="73" column="17" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/views/layout/base.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/views/layout/footer.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/styles/layout/footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
         </state>
       </provider>
     </entry>

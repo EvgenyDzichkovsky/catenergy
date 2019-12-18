@@ -76,4 +76,27 @@
 
         } %}
 
+    {% include 'layout/footer.twig' with
+        {
+            'list' : [
+            {
+                'class' : 'footer__social-link--vk',
+                'link' : '#',
+                'title' : 'вконтакте',
+            },
+            {
+                'class' : 'footer__social-link--inst',
+                'link' : '#',
+                'title' : 'инстаграм',
+            },
+            {
+                'class' : 'footer__social-link--fb',
+                'link' : '#',
+                'title' : 'фейсбук',
+            },
+        ],
+            'title_dev' : 'HTML Academy',
+        } %}
+
+
 {% endblock %}

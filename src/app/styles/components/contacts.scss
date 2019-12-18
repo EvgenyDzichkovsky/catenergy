@@ -1,55 +1,76 @@
-.contacts{
+.contacts {
   position: relative;
-  &__address{
+  height: 400px;
+  h4 {
+    text-transform: uppercase;
+    text-align: left;
+    width: 177px;
 
-    h4{
-      text-transform: uppercase;
-      text-align: left;
+    @include tablet {
+      font-size: 20px;
+      width: 221px;
 
-      @include tablet{
-        font-size: 20px;
-        width: 221px;
-      }
     }
+  }
 
-    p{
+  p {
+    text-align: right;
+    font-family: 'Arial', sans-serif;
+    width: 156px;
+
+    @include tablet {
+      font-size: 16px;
+      width: 197px;
+    }
+    @include mobile {
       text-align: right;
-      font-family: 'Arial', sans-serif;
+    }
+  }
 
-      @include tablet{
-        font-size: 16px;
-        width: 197px;
-      }
-
-      @include mobile{
-        text-align: left;
-        width: 247px;
-      }
+  &__address{
+    @include tablet{
+      height: 200px;
     }
 
-    &-wrap{
-      display: flex;
-      flex-direction: row;
-      padding: 70px;
-      width: 570px;
-      background: #ffffff;
-      position: absolute;
-      top: 50%;
-      transform: translate(0%,-50%);
-
-      @include tablet{
-        position: relative;
-        height: 200px;
-        align-items: center;
-        padding: 0 40px;
-        justify-content: space-between;
-      }
-      
-      @include mobile{
-        position: relative;
-        padding: 30px 0;
-        width: 100%;
-      }
+    @include mobile{
+      height: 114px;
     }
+  }
+
+  &__address-wrap {
+    position: absolute;
+    display: flex;
+    background: #fff;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 570px;
+    padding: 70px;
+    top: 50%;
+    transform: translate(0%, -50%);
+
+    @include tablet{
+      position: relative;
+      width: 100%;
+      padding: 0;
+    }
+
+    @include mobile{
+      position: relative;
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+  &__map{
+    height: 400px;
+  }
+
+  @include tablet{
+    height: auto;
+  }
+
+  @include mobile{
+    height: auto;
   }
 }

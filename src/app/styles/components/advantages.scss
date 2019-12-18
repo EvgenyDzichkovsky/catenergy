@@ -3,7 +3,11 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-bottom: 90px;
+  margin-bottom: 250px;
+
+  @include tablet{
+    margin-bottom: 730px;
+  }
 
   h3 {
     font-size: 60px;

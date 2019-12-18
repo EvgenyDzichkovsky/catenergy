@@ -2,16 +2,19 @@
   margin-top: 124px;
   margin-bottom: 80px;
   display: flex;
+  width: 100%;
   flex-direction: row;
   justify-content: space-between;
 
   @include tablet {
     flex-direction: column;
+    width: auto;
   }
 
   @include mobile {
     flex-direction: column;
     margin-bottom: 40px;
+    width: auto;
   }
 
   &__img-wrap {

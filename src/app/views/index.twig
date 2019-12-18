@@ -68,6 +68,17 @@
         ]
         } %}
 
+    {% include 'components/example.twig' with {
+        'section_title' : 'Живой пример',
+        'section_description' : 'Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.',
+        'section_weight' : '5 кг',
+        'section_description_weight' : 'снижение веса',
+        'section_days' : '60 дней',
+        'section_description_days' : 'затрачено времени',
+        'section_expenses' : 'затраты на питание:',
+        'section_price' : '15 000 руб.',
+    } %}
+
     {% include 'components/contacts.twig' with
         {
             'section_title' : 'приглашаем к сотрудничеству дилеров!',

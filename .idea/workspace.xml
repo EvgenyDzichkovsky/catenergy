@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e806ebf-78b9-49c4-b84d-9f10222dad45" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/contacts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/sprites/png-sprite.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/sprites/png-sprite.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/js/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/js/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/components/advantages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/advantages.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/components/cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/cards.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/mixins/layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/mixins/layout.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/components/contacts.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/components/contacts.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/views/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/index.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/views/layout/base.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/layout/base.twig" afterDir="false" />
     </list>
@@ -23,19 +25,10 @@
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/app/views/index.twig">
+            <entry file="file://$PROJECT_DIR$/src/app/js/App.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="571">
-                  <caret line="92" column="17" lean-forward="true" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="17" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/app/views/layout/footer.twig">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="96">
-                  <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+                <state relative-caret-position="763">
+                  <caret line="132" column="3" selection-start-line="132" selection-start-column="3" selection-end-line="132" selection-end-column="3" />
                 </state>
               </provider>
             </entry>
@@ -43,8 +36,35 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/app/views/layout/base.twig">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="176">
-                  <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="21" />
+                <state relative-caret-position="272">
+                  <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/app/views/components/example.twig">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="32">
+                  <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/app/views/components/beforeafterimg.twig">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="64">
+                  <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/app/views/index.twig">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="445">
+                  <caret line="77" column="49" selection-start-line="77" selection-start-column="49" selection-end-line="77" selection-end-column="49" />
                 </state>
               </provider>
             </entry>
@@ -53,11 +73,56 @@
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/app/styles/layout/footer.scss">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/app/styles/options.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="155">
-                  <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+                <state>
+                  <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/app/styles/components/example.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="640">
+                  <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/app/styles/mixins/layout.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="160">
+                  <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/app/styles/style.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="224">
+                  <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/app/styles/components/beforeafterimg.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="192">
+                  <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/app/styles/components/advantages.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="128">
+                  <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
                 </state>
               </provider>
             </entry>
@@ -88,11 +153,8 @@
         <option value="$PROJECT_DIR$/src/app/fonts/fonts.scss" />
         <option value="$PROJECT_DIR$/src/app/styles/fonts/fonts.scss" />
         <option value="$PROJECT_DIR$/src/app/styles/components/navigation.scss" />
-        <option value="$PROJECT_DIR$/src/app/styles/options.scss" />
         <option value="$PROJECT_DIR$/src/app/styles/layout/visually-hidden.scss" />
         <option value="$PROJECT_DIR$/src/app/views/components/img.twig" />
-        <option value="$PROJECT_DIR$/src/app/styles/mixins/layout.scss" />
-        <option value="$PROJECT_DIR$/src/app/js/App.js" />
         <option value="$PROJECT_DIR$/src/app/views/layout/header.twig" />
         <option value="$PROJECT_DIR$/src/app/styles/layout/header.scss" />
         <option value="$PROJECT_DIR$/src/app/styles/layout/common.scss" />
@@ -103,24 +165,34 @@
         <option value="$PROJECT_DIR$/src/app/views/components/about-work.twig" />
         <option value="$PROJECT_DIR$/src/app/styles/components/about-work.scss" />
         <option value="$PROJECT_DIR$/src/app/views/components/advantages.twig" />
-        <option value="$PROJECT_DIR$/src/app/styles/components/advantages.scss" />
-        <option value="$PROJECT_DIR$/src/app/styles/components/cards.scss" />
         <option value="$PROJECT_DIR$/src/app/styles/components/map.scss" />
         <option value="$PROJECT_DIR$/src/app/views/components/map.twig" />
         <option value="$PROJECT_DIR$/src/app/views/components/contacts.twig" />
         <option value="$PROJECT_DIR$/src/app/views/layout/footer.twig" />
-        <option value="$PROJECT_DIR$/src/app/views/index.twig" />
         <option value="$PROJECT_DIR$/src/app/styles/layout/wrapper.scss" />
-        <option value="$PROJECT_DIR$/src/app/styles/style.scss" />
         <option value="$PROJECT_DIR$/src/app/styles/components/contacts.scss" />
-        <option value="$PROJECT_DIR$/src/app/views/layout/base.twig" />
         <option value="$PROJECT_DIR$/src/app/styles/layout/footer.scss" />
+        <option value="$PROJECT_DIR$/src/app/styles/components/before-after-img.scss" />
+        <option value="$PROJECT_DIR$/src/app/styles/components/cards.scss" />
+        <option value="$PROJECT_DIR$/src/app/views/components/before-after-img" />
+        <option value="$PROJECT_DIR$/src/app/styles/options.scss" />
+        <option value="$PROJECT_DIR$/src/app/styles/mixins/layout.scss" />
+        <option value="$PROJECT_DIR$/src/app/styles/style.scss" />
+        <option value="$PROJECT_DIR$/config.json" />
+        <option value="$PROJECT_DIR$/src/app/views/layout/base.twig" />
+        <option value="$PROJECT_DIR$/src/app/js/App.js" />
+        <option value="$PROJECT_DIR$/src/app/views/components/example.twig" />
+        <option value="$PROJECT_DIR$/src/app/views/components/beforeafterimg.twig" />
+        <option value="$PROJECT_DIR$/src/app/styles/components/beforeafterimg.scss" />
+        <option value="$PROJECT_DIR$/src/app/styles/components/advantages.scss" />
+        <option value="$PROJECT_DIR$/src/app/views/index.twig" />
+        <option value="$PROJECT_DIR$/src/app/styles/components/example.scss" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="27" />
-    <option name="y" value="55" />
+    <option name="y" value="58" />
     <option name="width" value="1900" />
     <option name="height" value="976" />
   </component>
@@ -255,18 +327,18 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/enocryph.com-master" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/CatN-catalog" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\MY JOB\catenergy\src\app\images\png_sprite" />
+      <recent name="D:\MY JOB\catenergy\src\app\js" />
+      <recent name="D:\MY JOB\catenergy\src\app\styles\layout" />
       <recent name="D:\MY JOB\catenergy\src\app\images" />
+      <recent name="D:\MY JOB\catenergy\src\app\images\png_sprite" />
       <recent name="D:\MY JOB\catenergy\src\.tmp\images" />
-      <recent name="D:\MY JOB\catenergy\src\.tmp\styles" />
-      <recent name="D:\MY JOB\catenergy\src\app\styles" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -295,15 +367,15 @@
       <workItem from="1576073163766" duration="6595000" />
       <workItem from="1576136638369" duration="23608000" />
       <workItem from="1576325854599" duration="3090000" />
-      <workItem from="1576420483061" duration="52680000" />
+      <workItem from="1576420483061" duration="69748000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86896000" />
+    <option name="totallyTimeSpent" value="103964000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="27" y="55" width="1900" height="976" extended-state="0" />
+    <frame x="27" y="58" width="1900" height="976" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15306123" />
@@ -311,7 +383,7 @@
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32977462" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -331,9 +403,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/config.example.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
@@ -359,27 +428,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/js/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/styles/options.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/styles/mixins/layout.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/images/logo-mobile.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -390,13 +438,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/styles/layout/common.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/images/png_sprite/cat.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -404,27 +445,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/views/components/img.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/styles/components/cards.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/styles/components/advantages.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="127" column="35" selection-start-line="127" selection-start-column="35" selection-end-line="127" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -442,13 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/views/components/hero.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/views/components/cards.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -456,24 +469,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/styles/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/styles/layout/wrapper.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/views/index.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="92" column="17" lean-forward="true" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -491,13 +490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/views/layout/base.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/views/layout/footer.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -509,6 +501,118 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
           <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/styles/components/cards.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/views/components/img.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/styles/layout/common.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/views/components/hero.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/styles/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/styles/mixins/layout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/styles/options.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/js/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="763">
+          <caret line="132" column="3" selection-start-line="132" selection-start-column="3" selection-end-line="132" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/styles/components/beforeafterimg.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/styles/components/advantages.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/views/layout/base.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/views/index.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="77" column="49" selection-start-line="77" selection-start-column="49" selection-end-line="77" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/views/components/beforeafterimg.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/views/components/example.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/styles/components/example.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
         </state>
       </provider>
     </entry>

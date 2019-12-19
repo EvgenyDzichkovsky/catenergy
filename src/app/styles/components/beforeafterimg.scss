@@ -5,6 +5,11 @@
   margin: 0em auto;
   margin-top: -70px;
 
+  @include mobile{
+    width: 280px;
+    margin-top: 30px;
+  }
+
   img {
     display: block;
   }
@@ -17,6 +22,10 @@
 .cats-image--right{
   padding-left: 173px;
   width: 50%;
+
+  @include mobile{
+    padding-left: 84px;
+  }
 }
 
 .cd-image-label {
@@ -59,6 +68,10 @@
     height: 100%;
     width: auto;
     max-width: none;
+
+    @include mobile{
+      left: -17px;
+    }
   }
 
   .cd-image-label {
